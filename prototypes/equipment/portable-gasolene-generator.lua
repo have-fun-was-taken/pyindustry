@@ -1,12 +1,12 @@
 data:extend{{
 	type = 'generator-equipment',
 	name = 'portable-gasolene-generator',
-	power = '180kW',
+	power = '500kW',
 	burner = {
 		type = 'burner',
 		emissions_per_minute = 6,
-		fuel_inventory_size = 4,
-		burnt_inventory_size = 4,
+		fuel_inventory_size = 1,
+		burnt_inventory_size = 1,
 		fuel_category = 'jerry'
 	},
 	energy_source = {
